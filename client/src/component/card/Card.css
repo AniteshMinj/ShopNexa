@@ -1,0 +1,27 @@
+.text_description{
+    height: 2rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.card{
+    border: 2px solid #E6F1FF;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    transition: transform .2s;
+}
+
+.card:hover{
+    transform: scale(1.05);
+}
+
+
+
+.image{
+}
+
+.image:hover{
+    
+}
